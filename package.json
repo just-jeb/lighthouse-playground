@@ -1,0 +1,20 @@
+{
+  "name": "lighthouse-playground",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "Jeb Barabanov",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  },
+  "packageManager": "yarn@3.6.1"
+}
