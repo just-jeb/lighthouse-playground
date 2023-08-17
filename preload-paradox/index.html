@@ -9,17 +9,15 @@
 </head>
 
 <body>
-    <script>(function () {
-            function expensiveFunction(n) {
-                let result = 0;
-                for (let i = 0; i < Math.pow(2, n); i++) {
-                    result++;
-                }
-                return result;
+    <script>
+        function expensiveFunction(n) {
+            let result = 0;
+            for (let i = 0; i < Math.pow(2, n); i++) {
+                result++;
             }
-            expensiveFunction(20);
-        })();
-
+            return result;
+        }
+        expensiveFunction(30);
     </script>
     <h1><a href="./fix.html">Go to "fixed" version</a></h1>
     <!-- <img src="./img.jpg" alt="This is LCP" width="400px" height="600px" /> -->
